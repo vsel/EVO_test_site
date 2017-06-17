@@ -1,0 +1,51 @@
+body{
+    font-family:'Roboto';
+    font-size:1.6em;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/stardust.png');
+    color:#fafafa;
+}
+.first-row{
+    margin-top:50px;
+    margin-bottom:20px;
+}
+input[name="reg_name"]{
+    color:#262626;
+}
+a#reg_btn{
+    color:#262626;
+}
+p#result{
+    margin-top:10px;
+}
+
+.section__1, .section__3{
+    outline: 2px dashed #fafafa;
+    min-height:130px;
+    padding:20px 2px;
+}
+.section__1{
+    padding-left:20px;
+}
+.section__2{
+    /*padding:1px 2px;*/
+}
+.section__2 p{
+    text-align:center;
+}
+.section__3{
+    text-align:center;
+    padding-left:20px;
+}
+.section__3 ul li{
+    text-align:left;
+}
+ul#users{
+    list-style:none;
+}
+ul#users > li{
+    text-align:left;
+}
+#random{
+    color:#262626;
+    margin-left:20px;
+}

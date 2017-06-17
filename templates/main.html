@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EVO</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{{url_for("static", filename="css/main.css")}}">
+</head>
+<body>
+	<div class="container">
+		<div class="row first-row">
+			<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6 section__1">
+				<form>
+					<label>Name:</label>
+					<input type="text" placeholder="Enter your name" name="reg_name">
+					<a href='#' id='reg_btn'><button class='bth bth-default'>Send</button></a>
+				</form>
+				<p id='result'></p>
+			</div>
+			<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6 section__2">
+			    <p>USERS:</p>
+			    <ul id="users"></ul>
+			</div>
+		</div>
+		<div class="row second-row">
+			<div class=" col-md-offset-2 col-lg-offset-2 col-ls-8 col-sm-12 col-md-8 col-xs-12 section__3">
+				RANDOM WINNERS:
+				<a href='#' id='random'><button class='bth bth-default'>Random</button></a>
+				<ul id="random__list"></ul>
+			</div>
+		</div>
+	</div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+	<script type="text/javascript" src="{{url_for('static', filename="js/main.js")}}"></script>
+</body>
+
+</html>
