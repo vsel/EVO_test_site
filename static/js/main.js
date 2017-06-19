@@ -2,7 +2,7 @@
 function get_users(){
     $.getJSON('/_get_users', function(data){
         $('#users').text('');
-        data.users.forEach(function(elem){$('#users').append('<li>'+elem[0]+'   <a href="#" data-elem='+elem[0]+'>del</a></li>')});
+        data.users.forEach(function(elem){$('#users').append('<li>'+elem[0]+'   <a href="#" data-elem="'+elem[0]+'">del</a></li>')});
         window.setTimeout(function(){$('#result').text('');}, 2000);
     });
 }
